@@ -18,7 +18,7 @@ public class Morte : MonoBehaviour
     {
         life--;
 
-        if (life < 0)
+        if (life <= 0)
         {
             Instantiate(implosion, transform.position, Quaternion.identity);
             //Destroy(gameObject);//
