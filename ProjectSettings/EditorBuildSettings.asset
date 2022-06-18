@@ -6,12 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/errado/Menu.unity
-    guid: 8bbab8c851074bb42b783b0f17eb65bb
+    path: Assets/Scenes/Menu.unity
+    guid: 6c261399d3e35f04a9855c06beae6650
   - enabled: 1
     path: Assets/Scenes/Nivel1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/Nivel2.unity
-    guid: 48fd3a878197a894db73f3e4cfcf4532
+    guid: 4bb48ad0e8c4b684e8ba8082d159b77c
+  - enabled: 1
+    path: Assets/Scenes/Vitoria.unity
+    guid: 7408105c12363d14d8d077cea437e3ff
   m_configObjects: {}

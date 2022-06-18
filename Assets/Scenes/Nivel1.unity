@@ -460,7 +460,7 @@ MonoBehaviour:
   m_TargetMovementOnly: 1
   m_ScreenX: 0.5
   m_ScreenY: 0.5
-  m_CameraDistance: 10
+  m_CameraDistance: 8.719999
   m_DeadZoneWidth: 0
   m_DeadZoneHeight: 0
   m_DeadZoneDepth: 0
@@ -921,7 +921,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 246200375}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.946, y: 5.429, z: -8.92}
+  m_LocalPosition: {x: 0.946, y: 5.429, z: -7.6399994}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 153657809}
@@ -1873,7 +1873,7 @@ GameObject:
   - component: {fileID: 770908657}
   - component: {fileID: 770908656}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Config
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2185,6 +2185,18 @@ PrefabInstance:
       propertyPath: m_Offset.x
       value: 0.05850464
       objectReference: {fileID: 0}
+    - target: {fileID: 4963401862711658450, guid: 26897937de3260243944ff4bfdc55e12, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.061
+      objectReference: {fileID: 0}
+    - target: {fileID: 4963401862711658450, guid: 26897937de3260243944ff4bfdc55e12, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.708
+      objectReference: {fileID: 0}
+    - target: {fileID: 4963401862711658450, guid: 26897937de3260243944ff4bfdc55e12, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.425
+      objectReference: {fileID: 0}
     - target: {fileID: 6614329504062107833, guid: 26897937de3260243944ff4bfdc55e12, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.000030329227
@@ -2279,7 +2291,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.946, y: 5.429, z: -8.92}
+  m_LocalPosition: {x: 0.946, y: 5.429, z: -7.6399994}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2345,7 +2357,7 @@ GameObject:
   - component: {fileID: 1062479385}
   - component: {fileID: 1062479384}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Timer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3124,7 +3136,7 @@ GameObject:
   - component: {fileID: 1686030872}
   - component: {fileID: 1686030871}
   m_Layer: 5
-  m_Name: Image
+  m_Name: DeathCount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
